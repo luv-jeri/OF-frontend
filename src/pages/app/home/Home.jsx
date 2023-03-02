@@ -30,6 +30,7 @@ function Home() {
   return (
     <header className={s.container}>
       <NavComponent />
+      <h1>test push</h1>
       <section id='list' className={s.list}>
         {!loading ? (
           !error ? (
