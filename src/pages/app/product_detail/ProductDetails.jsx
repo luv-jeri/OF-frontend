@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useAuth } from '../../../context/Auth.context';
 import { useDispatch } from 'react-redux';
 import { setCart, add, remove } from '../../../store/cartSlice';
-import axios from 'axios';
+
 
 function ProductDetails() {
   const { id } = useParams();
